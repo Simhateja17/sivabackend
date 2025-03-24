@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "build": "echo \"No build step needed for a Node backend\""
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -20,3 +21,4 @@
     "node": ">=18.0.0"
   }
 }
+
